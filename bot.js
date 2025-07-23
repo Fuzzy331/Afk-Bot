@@ -13,8 +13,8 @@ function createBot() {
       username: config['bot-account']['username'],
       password: config['bot-account']['password'],
       auth: config['bot-account']['type'],
-      host: config.server.ip,
-      port: config.server.port,
+      host: herotif.aternos.me
+      port: 16064
       version: config.server.version,
    });
 
